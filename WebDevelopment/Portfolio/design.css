@@ -1,0 +1,404 @@
+
+@media(min-width:600px){
+  body{
+      background-color: #D0F0C0;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  header{
+      margin: 10px;
+      border-radius: 15px 50px;
+      background-color: #2E8B57;
+      height: 100px;
+      background-image: url(logo.gif);
+      background-repeat: no-repeat;
+  }
+
+  
+  a{color: #74C365;}
+  a:link{color: #74C365}
+  a:hover{color: #2E8B57;}
+  nav{
+      color: #74C365;
+      float: right;
+      text-align: right;
+      font-weight: bold;
+      font-size: 1.5em;
+      padding-top: .5em;
+      padding-right: 5em;
+      padding-bottom: 1em;
+      
+  }
+
+  th{
+    width: 10%;
+  }
+
+  table{
+    border: 2px solid black;
+  }
+
+  nav a{text-decoration: none;}
+  nav a:link{color: #74C365}
+  nav a:visited{color: #74C365;}
+  nav a:hover{color: #D0F0C0;}
+
+  nav ul{
+      padding-bottom: .5rem;
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+  }
+
+  #navPad{
+    padding-top: 1rem;
+  }
+
+  nav li{
+      padding-left: 2em;
+      padding-right: 2em;
+  }
+
+  main{
+      padding-left:7%;
+      padding-right: 7%;
+  }
+
+  .carouselFront{
+    padding-top: 3em;
+    padding-bottom: 5em;
+  }
+
+
+  .hobbies{
+    color: #74C365;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 40px;
+    /* padding: 80px 10px; */
+    text-shadow: -3px 3px #2E8B57;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;}
+
+    .center{
+      text-align: center;
+    }
+
+
+  h2{
+    color: #74C365;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 52px;
+    /* padding: 80px 10px; */
+    text-shadow: -3px 3px #2E8B57;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;}
+
+  #pad{
+    margin-top: 30px;
+  }
+
+  .onehalf{
+    float:left;
+    width:50%;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .onehalfright{
+    float:right;
+    width:50%;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    max-width: 1440px;
+    margin: auto;
+  }
+
+
+
+  #gif1{
+      float: left;
+      /* box-shadow: 10px 0 10px #2E8B57; */
+      }
+
+  #gif2{
+      float: right;
+      /* padding-right: 7em; */
+      /* box-shadow: 10px 0 10px #2E8B57; */
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  /* carousel */
+
+
+  /* Style inputs */
+  input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+
+  /* Style the container/contact section */
+  .container {
+      border-radius: 5px;
+      padding: 10px;
+    }
+    
+    /* Create two columns that float next to eachother */
+    .column {
+      float: left;
+      width: 50%;
+      margin-top: 6px;
+      padding: 20px;
+    }
+
+    #contactImage{
+      float: right;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+  }
+
+  @media(max-width:600px){
+    body{
+      background-color: #D0F0C0;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  header{
+      margin: 10px;
+      border: 25px 100px;
+      background-color: #2E8B57;
+      height: 300px;
+      background-image: url(logo.gif);
+      background-repeat: no-repeat;
+  }
+
+ 
+
+  nav{
+      color: #74C365;
+      text-align: right;
+      font-weight: bold;
+      font-size: 1.5em;
+      padding-top: .5em;
+      padding-right: 5em;
+      padding-bottom: 1em;
+      
+  }
+
+  th{
+    width: 10%;
+  }
+
+  table{
+    border: 2px solid black;
+  }
+
+  nav a{text-decoration: none;}
+  nav a:link{color: #74C365}
+  nav a:visited{color: #74C365;}
+  nav a:hover{color: #D0F0C0;}
+
+  a{color: #74C365;}
+  a:link{color: #74C365}
+  a:hover{color: #2E8B57;}
+
+
+
+  nav ul{
+    padding-top: 2.5em;
+    flex-direction: column;
+    text-align: center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:row;
+    margin:0;
+    font-size:1.2em;
+    list-style-type: none;
+}
+
+  #navPad{
+    padding-top: 1rem;
+  }
+
+  nav li{
+      display: inline;
+      padding-left: 2em;
+      padding-right: 2em;
+  }
+
+  /* main{
+      padding-left:8.2%;
+      padding-right: 8.2%;
+  } */
+
+  .carouselFront{
+    padding-top: 3em;
+    padding-bottom: 5em;
+  }
+
+
+  .hobbies{
+    color: #74C365;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 40px;
+    /* padding: 80px 10px; */
+    text-shadow: -3px 3px #2E8B57;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;}
+
+    .center{
+      text-align: center;
+    }
+
+
+  h2{
+    color: #74C365;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 52px;
+    /* padding: 80px 10px; */
+    text-shadow: -3px 3px #2E8B57;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;}
+
+  #pad{
+    margin-top: 30px;
+  }
+
+  /* .onehalf{
+    float:left;
+    width:50%;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1.5em;
+  } */
+
+  /* .onehalfright{
+    float:right;
+    width:50%;
+    padding-left: 2em;
+    padding-right: 2em;
+  } */
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    max-width: 1440px;
+    margin: auto;
+  }
+
+
+
+  #gif1{
+      width: 100%;
+      float: left;
+      /* box-shadow: 10px 0 10px #2E8B57; */
+      }
+
+  #gif2{
+      width: 100%;
+      float: right;
+      /* padding-right: 7em; */
+      /* box-shadow: 10px 0 10px #2E8B57; */
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  /* carousel */
+
+
+  /* Style inputs */
+  input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+
+  /* Style the container/contact section */
+  .container {
+      border-radius: 5px;
+      padding: 10px;
+    }
+    
+    /* Create two columns that float next to eachother */
+    .column {
+      float: left;
+      width: 50%;
+      margin-top: 6px;
+      padding: 20px;
+    }
+
+    #contactImage{
+      float: right;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+  }
